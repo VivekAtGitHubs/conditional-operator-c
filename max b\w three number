@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() 
+{
+int a,b,c,max;
+printf("\nenter three number");
+scanf("%d%d%d",&a,&b,&c);
+max=(a>b&&a>c)?:(b>a&&b>c)?:c;
+printf("\n max number=%d",max);
+return 0;
+}
